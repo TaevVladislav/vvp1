@@ -1,0 +1,11 @@
+#include <stdio.h>
+float main(float a, float b)
+{
+    a = 16.6;
+    b = 23.2;
+    float S = a * b;
+    float P = 2 * (a + b);
+    printf("S = %f\n", S);
+    printf("P = %f", P);
+}
+
